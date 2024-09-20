@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.3.0/remixicon.css">
+         
+
+         <!-- link Swipper's css-->
+         <link rel="stylesheet" href="swiper-bundle.min.css" />
+        
+        <!-- link Swipper's css-->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+         <!-- link Swipper's css-->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+          <!-- link Swipper's css-->
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+        <!--custom css file link-->
+        <link rel="stylesheet" href="sports.css">
+        <title>sports</title>
+
+    </head>
+<body> 
+    <!-- sports section start-->
+<section class="container">
+  <div class="card__container swiper">
+    <div class="card__content">
+      <div class="swiper-wrapper"> 
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="cricket.jpg" alt="image" class="card__img">
+              <div class="card__shadow">
+
+                <div class="card__data">
+                  <h3 class="card__name">Cricket</h3>
+                    <p class="card__description">
+                      Cricket
+                    </p>
+                    
+                    <a href="#" class="card__button">Explore</a>
+                  
+                </div>
+              </div>
+            </div>
+          </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img src="Badminton.jpg" alt="image" class="card__img">
+                <div class="card__shadow">
+  
+                  <div class="card__data">
+                    <h3 class="card__name">Badminton</h3>
+                      <p class="card__description">
+                        Badminton
+                      </p>
+                      
+                      <a href="#" class="card__button">Explore</a>
+                    
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                <img src="FOOTBALL.png" alt="image" class="card__img">
+                <div class="card__shadow">
+  
+                  <div class="card__data">
+                    <h3 class="card__name">Football</h3>
+                      <p class="card__description">
+                        Football
+                      </p>
+                      
+                      <a href="#" class="card__button">Explore</a>
+                    
+                  </div>
+                </div>
+              </div>
+            </article>
+
+
+            <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="basketball.jpg" alt="image" class="card__img">
+              <div class="card__shadow">
+
+                <div class="card__data">
+                  <h3 class="card__name">Basketball</h3>
+                    <p class="card__description">
+                      Basketball
+                    </p>
+                    
+                    <a href="#" class="card__button">Explore</a>
+                  
+                </div>
+              </div>
+            </div>
+          </article>
+      </div>
+    </div>
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-pagination"></div>
+
+  </div>
+   
+    
+          <!-- Swiper JS -->
+      <script src="swiper-bundle.min.js"></script>
+    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>   
+    
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
